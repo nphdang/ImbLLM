@@ -1,0 +1,11 @@
+python -W ignore classify.py --dataset fuel --trainsize 1.0 --testsize 0.2 --g_encode ordinal --c_encode ordinal --imbalance balance --ratio 0.2 --runs 3
+python -W ignore classify.py --dataset fuel --trainsize 1.0 --testsize 0.2 --g_encode ordinal --c_encode ordinal --imbalance standard --ratio 0.2 --runs 3
+python -W ignore classify.py --dataset fuel --trainsize 1.0 --testsize 0.2 --g_encode ordinal --c_encode ordinal --imbalance adasyn --ratio 0.2 --runs 3
+python -W ignore classify.py --dataset fuel --trainsize 1.0 --testsize 0.2 --g_encode ordinal --c_encode ordinal --imbalance smote --ratio 0.2 --runs 3
+python -W ignore classify.py --dataset fuel --trainsize 1.0 --testsize 0.2 --g_encode ordinal --c_encode ordinal --imbalance smotenc --ratio 0.2 --runs 3
+python -W ignore classify.py --dataset fuel --trainsize 1.0 --testsize 0.2 --g_encode original --c_encode ordinal --imbalance ctgan --ratio 0.2 --runs 3
+python -W ignore classify.py --dataset fuel --trainsize 1.0 --testsize 0.2 --g_encode original --c_encode ordinal --imbalance tvae --ratio 0.2 --runs 3
+python -W ignore classify.py --dataset fuel --trainsize 1.0 --testsize 0.2 --g_encode original --c_encode ordinal --imbalance great --ratio 0.2 --runs 3
+python -W ignore classify.py --dataset fuel --trainsize 1.0 --testsize 0.2 --g_encode original --c_encode ordinal --imbalance taptap --ratio 0.2 --runs 3
+python -W ignore classify.py --dataset fuel --trainsize 1.0 --testsize 0.2 --g_encode original --c_encode ordinal --imbalance pred_llm --ratio 0.2 --runs 3
+python -W ignore classify.py --dataset fuel --trainsize 1.0 --testsize 0.2 --g_encode original --c_encode ordinal --imbalance imb_llm --ratio 0.2 --runs 3
